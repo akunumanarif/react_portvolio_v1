@@ -11,10 +11,11 @@ export default function Intro() {
             showCursor: true,
             strings: ["Software Engineer","Data Science", "System Architect"]
         })
-    })
+    },[])
 
     return (
         <div className="intro" id="intro">
+            <div className="leftCover"></div>
             <div className="left">
                 <div className="imgContainer">
                     <img src="assets/me.jpg" alt=""/>

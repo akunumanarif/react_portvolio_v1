@@ -1,11 +1,13 @@
 .intro{
     background-color: white;
     display: flex;
+    //position: absolute;
     
 
     .left{
         flex: 0.5;
         overflow: hidden;
+        //position: relative;
 
         .imgContainer{
             width: 700px;
@@ -23,6 +25,13 @@
             }
         }
     }
+
+    // .leftCover{
+    //     flex: 0.3;
+    //     // z-index: 1;
+    //     background-color: cyan;
+    //     position: relative;
+    // }
 
     .right{
         flex: 0.5;
