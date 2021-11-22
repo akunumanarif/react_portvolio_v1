@@ -9,10 +9,18 @@
 
     .portfolioText{
         margin-top: 50px;
+        @include mobile{
+            margin-top: 10px;
+        }
+       
     }
 
     h1{
         font-size: 50px;
+
+        @include mobile{
+            font-size: 20px;
+        }
 
     }
 
@@ -22,7 +30,11 @@
         list-style: none;
         display: flex;
 
-        
+        @include mobile{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
         
     }
@@ -33,6 +45,10 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+
+        @include mobile{
+            width: 100%;
+        }
        
 
         .item{
@@ -48,6 +64,11 @@
             position: relative;
             transition: all 0.5s ease;
             cursor: pointer;
+
+            @include mobile{
+                width: 130px;
+                height: 100px;
+            }
 
             h3{
                 position: absolute;
