@@ -19,7 +19,7 @@
         .imgContainer{
             width: 700px;
             height: 700px;
-            background-color: lightcyan;
+            background-color: rgb(182, 241, 241);
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -28,6 +28,7 @@
             
             @include mobile{
                 align-items: flex-start;
+                background-color:  lightcyan;
             }
             
             img{
