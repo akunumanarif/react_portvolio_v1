@@ -55,7 +55,7 @@ export default function Portfolio() {
 
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1 className='portfolioText'>Portfolio</h1>
             <ul>
                  {portfolioList.map((itemList) => 
                   <PortfolioList 
