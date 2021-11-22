@@ -1,9 +1,10 @@
 .works {
-    background-color: crimson;
+    background-color: cyan;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    
 
     .arrow{
         height: 50px;
@@ -13,11 +14,13 @@
             left: 100px;
             transform: rotateY(180deg);
             cursor: pointer;
+            color: crimson;
         }
         
         &.right{
             right: 100px;
             cursor: pointer;
+            color: crimson;
         }
     }
 
@@ -26,6 +29,7 @@
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
 
         .container{
             width: 100vw;
